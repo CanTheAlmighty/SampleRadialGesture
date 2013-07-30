@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368A1FDB17A77FFD008E3D6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368A1FDA17A77FFD008E3D6D /* UIKit.framework */; };
+		368A1FDD17A77FFD008E3D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368A1FDC17A77FFD008E3D6D /* Foundation.framework */; };
+		368A1FDF17A77FFD008E3D6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368A1FDE17A77FFD008E3D6D /* CoreGraphics.framework */; };
+		368A1FE517A77FFD008E3D6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 368A1FE317A77FFD008E3D6D /* InfoPlist.strings */; };
+		368A1FE717A77FFD008E3D6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A1FE617A77FFD008E3D6D /* main.m */; };
+		368A1FEB17A77FFD008E3D6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A1FEA17A77FFD008E3D6D /* AppDelegate.m */; };
+		368A1FED17A77FFD008E3D6D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 368A1FEC17A77FFD008E3D6D /* Default.png */; };
+		368A1FEF17A77FFD008E3D6D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 368A1FEE17A77FFD008E3D6D /* Default@2x.png */; };
+		368A1FF117A77FFD008E3D6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 368A1FF017A77FFD008E3D6D /* Default-568h@2x.png */; };
+		368A1FF417A77FFD008E3D6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A1FF317A77FFD008E3D6D /* ViewController.m */; };
+		368A1FF717A77FFD008E3D6D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 368A1FF517A77FFD008E3D6D /* ViewController.xib */; };
+		368A1FFF17A78088008E3D6D /* DialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A1FFE17A78088008E3D6D /* DialView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		368A1FD717A77FFD008E3D6D /* DialAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368A1FDA17A77FFD008E3D6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		368A1FDC17A77FFD008E3D6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		368A1FDE17A77FFD008E3D6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		368A1FE217A77FFD008E3D6D /* DialAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DialAnimation-Info.plist"; sourceTree = "<group>"; };
+		368A1FE417A77FFD008E3D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		368A1FE617A77FFD008E3D6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		368A1FE817A77FFD008E3D6D /* DialAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DialAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		368A1FE917A77FFD008E3D6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		368A1FEA17A77FFD008E3D6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		368A1FEC17A77FFD008E3D6D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		368A1FEE17A77FFD008E3D6D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		368A1FF017A77FFD008E3D6D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		368A1FF217A77FFD008E3D6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		368A1FF317A77FFD008E3D6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		368A1FF617A77FFD008E3D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		368A1FFD17A78088008E3D6D /* DialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialView.h; sourceTree = "<group>"; };
+		368A1FFE17A78088008E3D6D /* DialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368A1FD417A77FFD008E3D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A1FDB17A77FFD008E3D6D /* UIKit.framework in Frameworks */,
+				368A1FDD17A77FFD008E3D6D /* Foundation.framework in Frameworks */,
+				368A1FDF17A77FFD008E3D6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368A1FCE17A77FFD008E3D6D = {
+			isa = PBXGroup;
+			children = (
+				368A1FE017A77FFD008E3D6D /* DialAnimation */,
+				368A1FD917A77FFD008E3D6D /* Frameworks */,
+				368A1FD817A77FFD008E3D6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		368A1FD817A77FFD008E3D6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368A1FD717A77FFD008E3D6D /* DialAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368A1FD917A77FFD008E3D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				368A1FDA17A77FFD008E3D6D /* UIKit.framework */,
+				368A1FDC17A77FFD008E3D6D /* Foundation.framework */,
+				368A1FDE17A77FFD008E3D6D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		368A1FE017A77FFD008E3D6D /* DialAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				368A1FE917A77FFD008E3D6D /* AppDelegate.h */,
+				368A1FEA17A77FFD008E3D6D /* AppDelegate.m */,
+				368A1FFD17A78088008E3D6D /* DialView.h */,
+				368A1FFE17A78088008E3D6D /* DialView.m */,
+				368A1FF217A77FFD008E3D6D /* ViewController.h */,
+				368A1FF317A77FFD008E3D6D /* ViewController.m */,
+				368A1FF517A77FFD008E3D6D /* ViewController.xib */,
+				368A1FE117A77FFD008E3D6D /* Supporting Files */,
+			);
+			path = DialAnimation;
+			sourceTree = "<group>";
+		};
+		368A1FE117A77FFD008E3D6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				368A1FE217A77FFD008E3D6D /* DialAnimation-Info.plist */,
+				368A1FE317A77FFD008E3D6D /* InfoPlist.strings */,
+				368A1FE617A77FFD008E3D6D /* main.m */,
+				368A1FE817A77FFD008E3D6D /* DialAnimation-Prefix.pch */,
+				368A1FEC17A77FFD008E3D6D /* Default.png */,
+				368A1FEE17A77FFD008E3D6D /* Default@2x.png */,
+				368A1FF017A77FFD008E3D6D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		368A1FD617A77FFD008E3D6D /* DialAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368A1FFA17A77FFD008E3D6D /* Build configuration list for PBXNativeTarget "DialAnimation" */;
+			buildPhases = (
+				368A1FD317A77FFD008E3D6D /* Sources */,
+				368A1FD417A77FFD008E3D6D /* Frameworks */,
+				368A1FD517A77FFD008E3D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DialAnimation;
+			productName = DialAnimation;
+			productReference = 368A1FD717A77FFD008E3D6D /* DialAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368A1FCF17A77FFD008E3D6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "José Luis Canepa";
+			};
+			buildConfigurationList = 368A1FD217A77FFD008E3D6D /* Build configuration list for PBXProject "DialAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 368A1FCE17A77FFD008E3D6D;
+			productRefGroup = 368A1FD817A77FFD008E3D6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368A1FD617A77FFD008E3D6D /* DialAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368A1FD517A77FFD008E3D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A1FE517A77FFD008E3D6D /* InfoPlist.strings in Resources */,
+				368A1FED17A77FFD008E3D6D /* Default.png in Resources */,
+				368A1FEF17A77FFD008E3D6D /* Default@2x.png in Resources */,
+				368A1FF117A77FFD008E3D6D /* Default-568h@2x.png in Resources */,
+				368A1FF717A77FFD008E3D6D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368A1FD317A77FFD008E3D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A1FE717A77FFD008E3D6D /* main.m in Sources */,
+				368A1FEB17A77FFD008E3D6D /* AppDelegate.m in Sources */,
+				368A1FF417A77FFD008E3D6D /* ViewController.m in Sources */,
+				368A1FFF17A78088008E3D6D /* DialView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		368A1FE317A77FFD008E3D6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368A1FE417A77FFD008E3D6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		368A1FF517A77FFD008E3D6D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368A1FF617A77FFD008E3D6D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		368A1FF817A77FFD008E3D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		368A1FF917A77FFD008E3D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368A1FFB17A77FFD008E3D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DialAnimation/DialAnimation-Prefix.pch";
+				INFOPLIST_FILE = "DialAnimation/DialAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		368A1FFC17A77FFD008E3D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DialAnimation/DialAnimation-Prefix.pch";
+				INFOPLIST_FILE = "DialAnimation/DialAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368A1FD217A77FFD008E3D6D /* Build configuration list for PBXProject "DialAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368A1FF817A77FFD008E3D6D /* Debug */,
+				368A1FF917A77FFD008E3D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368A1FFA17A77FFD008E3D6D /* Build configuration list for PBXNativeTarget "DialAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368A1FFB17A77FFD008E3D6D /* Debug */,
+				368A1FFC17A77FFD008E3D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 368A1FCF17A77FFD008E3D6D /* Project object */;
+}
